@@ -1,0 +1,67 @@
+.card-background{
+    height:1000px;
+    width:1500px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:bold;
+  }
+  
+  .front{
+    height:400px;
+    width:250px;
+    background-color:#d9e817;
+    color:red;
+    font-size:2em;
+    
+  
+  }
+  
+  
+  .text2{
+    font-family:bold;
+    font-weight:20px;
+    color:black;
+  }
+  
+  .back{
+    height:400px;
+    width:250px;
+    background-color:#ea15b4;
+    color:aqua;
+    
+  }
+  
+  .text{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   
+  }
+  
+  .front:hover{
+  
+    color:blue;
+  }
+  
+  
+  @keyframes text-shadow {
+    0%{
+        text-shadow: 10px 10px 100px blue;
+    }
+    30%{
+      text-shadow : 10px 10px 100px red;
+    }
+    50%{
+        text-shadow: 10px 10px 100px gold;
+    }
+    70%{
+        text-shadow: 10px 10px 100px purple;
+    }
+    100%{
+            text-shadow: 10px 10px 100px rgb(203, 29, 64);
+    }
+  }
+  
+  
+  
